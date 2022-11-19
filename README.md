@@ -8,6 +8,8 @@ Very simple to use
 
 ## Screenshot
 ![image](https://user-images.githubusercontent.com/108663786/202847223-afd34f73-129f-4d6e-a96f-053790790219.png)
+![image](https://user-images.githubusercontent.com/108663786/202847408-963853ca-5bab-43b5-aeab-d7638f754a14.png)
+
 
 ### Made by
 Jerahmeel Hoshaiah Francisco
