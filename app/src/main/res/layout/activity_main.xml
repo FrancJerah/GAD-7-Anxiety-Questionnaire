@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/dirty_green"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="20sp"
+        android:elevation="10dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        app:cardBackgroundColor="@color/dirty_white"
+        app:cardCornerRadius="12dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp">
+
+        <TextView
+            android:id="@+id/app_textIntro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14dp"
+            android:fontFamily="@font/opensans_semibold"
+            android:text="@string/app_infotext"
+            android:textAlignment="center"
+            android:textColor="@color/dirty_black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center_horizontal" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <EditText
+        android:id="@+id/editContent1"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginBottom="307dp"
+        android:ems="10"
+        android:textSize="14sp"
+        android:hint="@string/hint_contents_a"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/dirty_black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editPrice1"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginBottom="401dp"
+        android:ems="10"
+        android:textSize="14sp"
+        android:hint="@string/hint_price_a"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/dirty_black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editPrice2"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginBottom="401dp"
+        android:ems="10"
+        android:textSize="14sp"
+        android:hint="@string/hint_price_b"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/dirty_black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editPrice1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editContent2"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginBottom="307dp"
+        android:ems="10"
+        android:textSize="14sp"
+        android:hint="@string/hint_contents_b"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/dirty_black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editContent1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:fontFamily="@font/opensans_extrabold"
+        android:onClick="btnOnClear"
+        android:text="@string/button_text_clear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editContent1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/buttonCompute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensans_extrabold"
+        android:onClick="btnOnCompute"
+        android:text="@string/button_text_compute"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonClear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="@color/dirty_white"
+        app:cardCornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCompute"
+        tools:layout_editor_absoluteX="0sp">
+
+        <TextView
+            android:id="@+id/app_textMore"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="12sp"
+            android:fontFamily="@font/opensans_medium"
+            android:gravity="center_horizontal"
+            android:text="Fancy shopping for groceries?\n\nSome products that look attractive \nand 'too good to be true' may be more expensive than you think, even if its marked down."
+            android:textAlignment="center"
+            android:textColor="@color/dirty_black"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

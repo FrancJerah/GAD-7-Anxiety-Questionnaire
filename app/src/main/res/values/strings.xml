@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Simple Unit Price Calculator</string>
+    <string name="app_infotext">Which product is cheaper? \nCompare two items \nand get the best deal!</string>
+    <string name="hint_price_a">Price (a)</string>
+    <string name="hint_price_b">Price (b)</string>
+    <string name="hint_contents_a">Content in g/ml (a)</string>
+    <string name="hint_contents_b">Content in g/ml (b)</string>
+    <string name="button_text_clear">Clear</string>
+    <string name="button_text_compute">Compute</string>
+    <string name="txt_compute_result">Showing Result(s)</string>
+    <string name="txt_close">Close</string>
+
+</resources>
