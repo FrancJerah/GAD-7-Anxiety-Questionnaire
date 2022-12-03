@@ -8,14 +8,14 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="davys_grey">#4D5057</color>
-    <color name="hookers_green">#4E6E5D</color>
-    <color name="forest_green_crayola">#4DA167</color>
-    <color name="dark_pastel_green">#3BC14A</color>
-    <color name="light_grey">#CFCFCF</color>
-    <color name="mint_green">#a6f0bb</color>
-    <color name="dirty_white">#f5f6f8</color>
-    <color name="dirty_green">#ccf5df</color>
+    <color name="light_cyan">#DBFCFF</color>
+    <color name="dodger_blue">#3F8EFC</color>
+    <color name="sky_blue_crayola">#8CECFF</color>
+    <color name="baby_blue">#70D6FF</color>
+    <color name="opal">#9FB7B9</color>
+    <color name="ash_gray">#BCC1BA</color>
+    <color name="almond">#F2E2D2</color>
+    <color name="alice_blue">#F2F8FF</color>
     <color name="dirty_black">#182546</color>
 
 

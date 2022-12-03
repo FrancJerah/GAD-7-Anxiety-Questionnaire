@@ -1,4 +1,4 @@
-package com.app.simpleunitpricecalculator;
+package com.app.gadsevenquestionnaire;
 
 import android.app.AlertDialog;
 import android.app.Dialog;

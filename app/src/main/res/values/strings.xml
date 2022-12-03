@@ -1,13 +1,43 @@
 <resources>
-    <string name="app_name">Simple Unit Price Calculator</string>
-    <string name="app_infotext">Which product is cheaper? \nCompare two items \nand get the best deal!</string>
-    <string name="hint_price_a">Price (a)</string>
-    <string name="hint_price_b">Price (b)</string>
-    <string name="hint_contents_a">Content in g/ml (a)</string>
-    <string name="hint_contents_b">Content in g/ml (b)</string>
-    <string name="button_text_clear">Clear</string>
-    <string name="button_text_compute">Compute</string>
-    <string name="txt_compute_result">Showing Result(s)</string>
+    // string names app text
+    <string name="app_name">GAD-7 Anxiety Questionnaire</string>
+    <string name="app_infotext">Worrying all day? \nThis questionnaire might help \nyou know your anxiety level!</string>
+    <string name="hint_text">The GAD-7 Test is a professional fast-screening tool used \nby mental health professionals. \n\nAlthough the result might be felt as inferior and generalized, it is important to seek a GP to discuss with your mental health concern regarding your test results. </string>
+    <string name="hint_name">Name</string>
+    <string name="hint_age">Age</string>
+    <string name="button_text_start">Start</string>
+    <string name="txt_compute_result">Showing result(s)</string>
     <string name="txt_close">Close</string>
+
+    // string names prior statements
+    <string name="question_prior">Over the last 2 weeks: how often have you been bothered by the problem:</string>
+    <string name="result_prior">Your result is:</string>
+
+    // string names per question activity
+    <string name="question_one">Question: 1/7\n\nFeeling nervous, anxious, or on the edge?</string>
+    <string name="question_two">Question: 2/7\n\nNot being able to stop or control worrying?</string>
+    <string name="question_three">Question: 3/7\n\nWorrying too much about different things?</string>
+    <string name="question_four">Question: 4/7\n\nTrouble relaxing?</string>
+    <string name="question_five">Question: 5/7\n\nBeing so restless that it is hard to sit still?</string>
+    <string name="question_six">Question: 6/7\n\nBecoming easily annoyed or irritable?</string>
+    <string name="question_seven">Question: 7/7\n\nFeeling afraid as if something awful might happen?</string>
+
+    // string names per response
+    <string name="answer_one">Not at all</string>
+    <string name="answer_two">Several days</string>
+    <string name="answer_three">More than half the days</string>
+    <string name="answer_four">Nearly every day</string>
+
+    // string names result
+    <string name="result_normal">Normal</string>
+    <string name="result_mild">Mild Anxiety</string>
+    <string name="result_moderate">Moderate Anxiety</string>
+    <string name="result_severe">Severe Anxiety</string>
+
+    // string names result message
+    <string name="result_normal_description">Your result falls into\n the normal range. You may experience stress from \ntime to time, but you have \nnothing to worry about. </string>
+    <string name="result_mild_description">Your result falls into the mild range. You may wish to monitor \nyour symptoms or speak to a health professional if you are concerned.</string>
+    <string name="result_moderate_description">Your result falls into \nthe moderate range. This means you could be experiencing \nsignificant anxiety.\n You may wish to see to your GP.</string>
+    <string name="result_severe_description">Your result falls into the severe range. This means you are \nprobably experiencing significant anxiety. We strongly \nrecommend you see your GP, and consider calling social support right now.</string>
 
 </resources>

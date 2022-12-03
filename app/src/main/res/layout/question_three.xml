@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/sky_blue_crayola"
+    tools:context=".ThreeActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="20sp"
+        android:elevation="10dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        app:cardBackgroundColor="@color/alice_blue"
+        app:cardCornerRadius="12dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp">
+
+        <TextView
+            android:id="@+id/app_textIntro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14dp"
+            android:fontFamily="@font/opensans_semibold"
+            android:gravity="center_horizontal"
+            android:text="@string/question_prior"
+            android:textAlignment="center"
+            android:textColor="@color/dirty_black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_margin="20sp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="@color/alice_blue"
+        app:cardCornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView3"
+        tools:layout_editor_absoluteX="200dp">
+
+
+        <TextView
+            android:id="@+id/app_textMore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/opensans_medium"
+            android:gravity="center_horizontal"
+            android:text="@string/question_three"
+            android:textAlignment="center"
+            android:textColor="@color/dirty_black"
+            android:textSize="21sp"
+            android:textStyle="normal"
+            tools:layout_conversion_absoluteHeight="130dp"
+            tools:layout_conversion_absoluteWidth="371dp"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="220dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button_several_days"
+                android:layout_width="130dp"
+                android:layout_height="76dp"
+                android:fontFamily="@font/opensans_bold"
+                android:onClick="btnSeveralDays"
+                android:text="@string/answer_two"
+                app:layout_constraintBottom_toBottomOf="@+id/button_not_at_all"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/button_not_at_all" />
+
+            <Button
+                android:id="@+id/button_nearly_every_day"
+                android:layout_width="130dp"
+                android:layout_height="76dp"
+                android:fontFamily="@font/opensans_bold"
+                android:onClick="btnNearlyEveryDay"
+                android:text="@string/answer_four"
+                app:layout_constraintBottom_toBottomOf="@+id/button_more_than_half_days"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/button_more_than_half_days" />
+
+            <Button
+                android:id="@+id/button_not_at_all"
+                android:layout_width="130dp"
+                android:layout_height="76dp"
+                android:fontFamily="@font/opensans_bold"
+                android:onClick="btnNotAtAll"
+                android:text="@string/answer_one"
+                android:textSize="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/button_several_days"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.562" />
+
+            <Button
+                android:id="@+id/button_more_than_half_days"
+                android:layout_width="130dp"
+                android:layout_height="76dp"
+                android:fontFamily="@font/opensans_bold"
+                android:textSize="12sp"
+                android:onClick="btnMoreThanHalfDays"
+                android:text="@string/answer_three"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/button_nearly_every_day"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.864" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
